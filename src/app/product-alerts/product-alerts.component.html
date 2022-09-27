@@ -1,0 +1,4 @@
+<p *ngIf="product && product.price > 700">
+  價錢：{{ product.price }}
+  <button type="button" (click)="notify.emit()">我很貴</button>
+</p>
